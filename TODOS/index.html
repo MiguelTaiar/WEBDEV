@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/de63b532a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <title>TODOS</title>
+</head>
+<body>
+    <div class="header">
+        <div id="logo">
+            <h1 id="title">TODOS</h1>
+            <i class="fas fa-check-square fa-2x"></i>
+        </div>
+        <form action="search">
+            <label for="search">
+                <input id="search" type="text" placeholder="Pesquisar">
+            </label>
+        </form>
+    </div>
+    <div class="container">
+        <form action="addItens" id="add-form">
+            <label class="activity" for="Item">Atividade</label>
+            <input class="activity" id="activity" type="text" placeholder="O que temos para fazer?">
+            <label class="end" for="Item">Prazo</label>
+            <input class="end" id="deadline" type="date"/>
+            <button class="btn">Adicionar</button>
+        </form>
+        <ul id="itens-holder">
+        </ul>
+
+    </div>
+<script src="JS/main.js"></script>
+</body>
+</html>
