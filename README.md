@@ -1,2 +1,2 @@
 # WEBDEV
-My trainning projects for web dev
+My project to keep traineing web dev
